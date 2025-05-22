@@ -16,7 +16,8 @@ To write a PYTHON program for socket for HTTP for web page upload and download
 6.Stop the program
 <BR>
 ## Program 
-~~~
+
+```
 import socket
 
 def send_request(host, port, request):
@@ -54,10 +55,11 @@ if __name__ == "__main__":
     # Download file
     download_file(host, port, 'example.txt')
     print("File downloaded successfully.")
-~~~
+```
 
 ## OUTPUT
-![329869964-fa965f44-1ee1-4b90-b522-5dfedc27a9d2](https://github.com/user-attachments/assets/8e92d5e4-3af6-4113-951d-b67b58f896da)
+
+![Screenshot 2025-05-09 080037](https://github.com/user-attachments/assets/bb88f645-c06d-4ec3-bca1-ff7614aca083)
 
 ## Result
 Thus the socket for HTTP for web page upload and download created and Executed
